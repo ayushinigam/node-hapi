@@ -54,3 +54,5 @@ server.register({
         server.log('info', 'Server running at: ' + server.info.uri);
     });
 });
+
+module.exports = server;
